@@ -162,7 +162,7 @@ const ClosePass = () => {
               gap: '1rem',
               position: 'relative'
             }}>
-              <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', paddingRight: '2.5rem' }}>
+              <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
                 <div style={{ width: '60px', height: '60px', borderRadius: '50%', overflow: 'hidden', backgroundColor: 'var(--bg-color)', flexShrink: 0 }}>
                   {visitor.visitor_photo ? (
                     <img
